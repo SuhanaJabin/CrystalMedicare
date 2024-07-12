@@ -6,7 +6,7 @@ const MainHero = () => {
   const { mainHero } = config;
   return (
     <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-      <div className="sm:text-center lg:mt-20 lg:text-left  group ">
+      <div className="sm:justify-center lg:mt-20 lg:text-left  group ">
         <h1 className=" tracking-tight font-extrabold text-gray-700  ">
           <div className=" lg:text-5xl sm:text-4xl group-hover:text-primary sm:text-center transition-all duration-700">
             {mainHero.title}
@@ -20,7 +20,7 @@ const MainHero = () => {
         {/* <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
           {mainHero.description}
         </p> */}
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:ml-20 mb-10 lg:justify-start">
+        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:ml-28 mb-16 lg:justify-start">
           <div className="rounded-md shadow">
             <a
               href={mainHero.primaryAction.href}
