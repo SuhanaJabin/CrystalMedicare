@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "crystalmedicare-360"
+  },
+  "targets": {
+    "crystalmedicare-360": {
+      "hosting": {
+        "target-site-alias": [
+          "target-site-id"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
