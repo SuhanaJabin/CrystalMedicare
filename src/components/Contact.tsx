@@ -11,11 +11,11 @@ const Contact = () => {
         <div className="flex w-full p-1 lg:w-5/6 flex-wrap items-center mb-10 justify-center">
           <div>
             <h1
-              className="lg:text-4xl text-secondary text-center sm:text-3xl font-bold mb-10"
+              className="lg:text-4xl text-gray-900 text-center sm:text-3xl font-bold mb-10"
             >
               Contact Us
             </h1>
-            <p className="transition-all duration-500 hover:text-primary sm:text-xl lg:text-2xl font-bold ">
+            <p className="transition-all duration-500 hover:text-primary sm:text-xl lg:text-2xl font-bold text-gray-600 ">
               We&apos;re here to assist you with all your healthcare needs. Reach out to us through any of the follow
             </p>
 
