@@ -86,7 +86,7 @@ const Menu = () => {
             >
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
-                  <img className="h-8 w-auto" src={logo} alt="" />
+                  <img className="h-8 w-8" src={logo} alt="" />
                 </div>
                 <div className="-mr-2">
                   <Popover.Button
