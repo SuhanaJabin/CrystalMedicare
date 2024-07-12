@@ -4,7 +4,7 @@ import config from '../config/index.json';
 
 const Features = () => {
   const { features } = config;
-  const {   items: featuresList } = features;
+  const { items: featuresList } = features;
 
   return (
     <div className="py-12 bg-background" id="features">
@@ -37,7 +37,7 @@ const Features = () => {
                     {feature.name}
                   </h1>
                 </dt>
-                <dd className="mt-2 ml-16 text-xl text-gray-500 transition-all duration-500 group-hover:text-2xl group-hover:text-gray-800 group-hover:font-bold">
+                <dd className="mt-2 ml-16 text-xl text-gray-500 transition-all duration-500 group-hover:text-2xl group-hover:text-gray-800 group-hover:font-bold text-justify">
                   {feature.description}
                 </dd>
               </div>

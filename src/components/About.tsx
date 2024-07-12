@@ -9,8 +9,8 @@ const Product = () => {
 
   return (
     <section className="bg-background py-8" id="product">
-      <div className="container max-w-5xl mx-auto m-8">
-        <h1 className="w-full my-2 lg:text-5xl text-2xl font-bold leading-tight text-center text-primary">
+      <div className="container max-w-5xl mx-auto m-8 p-3">
+        <h1 className="w-full my-2 lg:text-5xl text-2xl font-extrabold leading-tight text-center text-primary">
           {product.title.split(' ').map((word, index) => (
             <span
               key={index}
@@ -26,7 +26,7 @@ const Product = () => {
             <h3 className="lg:text-3xl text-2xl text-gray-800 font-bold group-hover:text-primary leading-none transition-all duration-500">
               {firstItem?.title}
             </h3>
-            <p className="text-gray-600 text-xl lg:text-2xl font-bold group-hover:text-gray-800 group-hover:font-bold transition-all group-hover:text-2xl duration-500 mt-12 text-justify sm:text-center">
+            <p className="text-gray-600 text-xl lg:text-2xl font-bold group-hover:text-gray-800 group-hover:font-bold transition-all group-hover:text-2xl duration-500 mt-12 text-justify">
               {firstItem?.description}
             </p>
           </div>
