@@ -25,15 +25,15 @@ const Product = () => {
         <Divider />
         <div className={`flex flex-wrap `}>
           <div
-            className={`w-11/12 sm:w-1/2 p-6 mb-14 sm:text-center group transition-all duration-300  `}
+            className={`w-11/12 sm:w-1/2 p-6 mb-14  group transition-all duration-300  `}
           >
             <h3
-              className={`lg:text-4xl sm:text-xl  text-gray-800 font-bold group-hover:text-primary leading-none transition-all duration-500  `}
+              className={`lg:text-3xl sm:text-xl  text-gray-800 font-bold group-hover:text-primary leading-none transition-all duration-500  `}
             >
               {firstItem?.title}
             </h3>
             <p
-              className={`text-gray-600 sm:text-xl lg:text-3xl  font-bold group-hover:text-gray-800 group-hover:font-bold transition-all group-hover:text-2xl duration-500 mt-12`}
+              className={`text-gray-600 sm:text-xl lg:text-2xl  font-bold group-hover:text-gray-800 group-hover:font-bold transition-all group-hover:text-2xl duration-500 mt-12`}
             >
               {firstItem?.description}
             </p>
