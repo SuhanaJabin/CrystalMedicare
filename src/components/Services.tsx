@@ -37,10 +37,8 @@ const Features = () => {
                       {feature.number}
                     </h1>
                   </div>
-                  {/* <p className="ml-16  leading-6 text-xl font-medium text-gray-900">
-                    {feature.name}
-                  </p> */}
-                  <h1 className=" ml-16 leading-6 text-2xl font-bold transition-all duration-500  group-hover:text-3xl group-hover:text-primary">
+                 
+                  <h1 className=" ml-16 leading-6 lg:text-2xl sm:text-xl font-bold transition-all duration-500  group-hover:text-3xl group-hover:text-primary">
                     {feature.name}
                   </h1>
                 </dt>

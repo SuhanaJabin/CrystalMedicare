@@ -15,7 +15,7 @@ const Contact = () => {
             >
               Contact Us
             </h1>
-            <p className="transition-all duration-500 hover:text-gray-600 sm:text-xl  lg:text-2xl font-bold ">
+            <p className="transition-all duration-500 hover:text-primary sm:text-xl lg:text-2xl font-bold ">
               We&apos;re here to assist you with all your healthcare needs. Reach out to us through any of the follow
             </p>
 
