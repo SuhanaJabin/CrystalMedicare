@@ -10,11 +10,11 @@ const MainHero = () => {
           <div className="text-3xl lg:text-5xl group-hover:text-primary text-center font-extrabold transition-all duration-700">
             {mainHero.title}
           </div>
-          <div className="text-3xl lg:text-5xl text-primary group-hover:text-gray-700 text-center font-extrabold transition-all duration-700">
+          <div className="text-3xl lg:text-5xl text-primary group-hover:text-gray-700 text-center font-extrabold transition-all duration-700 ">
             {mainHero.subtitle}
           </div>
         </h1>
-        <div className="mt-4 sm:mt-8 sm:flex sm:justify-center lg:ml-10 lg:mb-16 sm:mb-3">
+        <div className="mt-4 sm:mt-8 sm:flex sm:justify-center lg:ml-10 lg:mb-16 sm:mb-3 mr-5">
           <div className="rounded-md shadow w-3/5 mx-auto sm:w-auto">
             <a
               href={mainHero.primaryAction.href}
