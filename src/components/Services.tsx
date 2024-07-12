@@ -33,11 +33,11 @@ const Features = () => {
                       {feature.number}
                     </h1>
                   </div>
-                  <h1 className="ml-16 leading-6 lg:text-2xl text-xl font-bold transition-all duration-500 group-hover:text-3xl group-hover:text-primary">
+                  <h1 className="ml-16 leading-6 lg:text-2xl text-xl font-bold transition-all duration-500 lg:group-hover:text-3xl group-hover:text-primary sm:ml-4">
                     {feature.name}
                   </h1>
                 </dt>
-                <dd className="mt-2 ml-16 text-xl text-gray-500 transition-all duration-500 group-hover:text-2xl group-hover:text-gray-800 group-hover:font-bold text-justify">
+                <dd className="mt-2 ml-16 sm:text-xl text-gray-500 transition-all duration-500 lg:group-hover:text-2xl group-hover:text-gray-800 group-hover:font-bold text-justify sm:ml-4">
                   {feature.description}
                 </dd>
               </div>
