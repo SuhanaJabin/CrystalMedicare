@@ -9,7 +9,7 @@ import config from '../config/index.json';
 
 const Menu = () => {
   const { navigation, company, callToAction } = config;
-  const { name: companyName, logo } = company;
+  const { name: companyName } = company;
 
   return (
     <>
