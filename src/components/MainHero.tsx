@@ -32,7 +32,7 @@ const MainHero = () => {
           <div className="  sm:ml-3">
             <a
               href={mainHero.secondaryAction.href}
-              className={`lg:w-full sm:w-1/2 flex items-center text-center lg:mt-10 sm:mt-10 justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
+              className={`w-auto flex items-center text-center lg:mt-10 sm:mt-10 justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
             >
               {mainHero.secondaryAction.text}
             </a>
