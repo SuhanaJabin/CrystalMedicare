@@ -42,7 +42,7 @@ const Contact = () => {
                 crystalmedicare.co.uk@gmail.com
               </a>
             </h1>
-            <p className="transition-all duration-500 hover:text-primary mt-5  sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-600">
+            <p className=" mt-5  sm:text-xl  lg:text-2xl font-bold text-gray-600">
               For appointments or enquiries, feel free to call, email or visit our website. Our dedicated team is ready to help you achieve optimal health and wellbeing.
             </p>
           </div>
