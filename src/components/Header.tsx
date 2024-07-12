@@ -23,9 +23,10 @@ const Menu = () => {
       </svg>
 
       <Popover>
-        <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+        <div className="relative pt-6 px-4 sm:px-6  lg:px-8">
+          <div className='mt-10'>
           <nav
-            className="relative flex items-center justify-between sm:h-10 lg:justify-start"
+            className=" relative flex items-center justify-between sm:h-10 lg:justify-start"
             aria-label="Global"
           >
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
@@ -53,19 +54,15 @@ const Menu = () => {
                   duration={1000}
                   key={item.name}
                   to={item.href}
-                  className="font-medium text-gray-500 hover:text-gray-900"
+                  className="font-medium text-gray-500 text-3xl hover:text-primary transition-all duration-300 "
                 >
                   {item.name}
                 </Link>
               ))}
-              <a
-                href="#"
-                className={`font-medium text-primary hover:text-secondary`}
-              >
-                Call to action
-              </a>
+             
             </div>
           </nav>
+          </div>
         </div>
 
         <Transition

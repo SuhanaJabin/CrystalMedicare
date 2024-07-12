@@ -2,21 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+  background-color: #94d3c5;
+}
 :root {
-  --color-primary: #ec4755;
-  --color-secondary: #a12c34;
+  --color-primary: #94d3c5;
+  --color-secondary: #94d7e0;
   --color-tertiaty: #99a0a3;
 }
 
 a { 
-  @apply text-red-700;
+  @apply text-[#94d3c5];
 }
 
 a:hover {
-  @apply border-b-2 border-red-700;
+  @apply border-b-2 text-secondary;
 }
 
+.logo {
+  filter: hue-rotate(180deg) brightness(0.5); /* Example filter */
+}
+.green-filter {
+  filter: hue-rotate(30deg);
+ 
+  /* Adjust the degree to get the desired greenish effect */
+}
 
 
 .content p {
@@ -26,3 +36,5 @@ a:hover {
 .content ul {
   @apply my-6;
 }
+
+

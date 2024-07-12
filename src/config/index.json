@@ -1,24 +1,19 @@
 {
   "company": {
     "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "logo": "/assets/images/image.png"
   },
   "navigation": [
     {
-      "name": "Product",
+      "name": "About",
       "href": "product"
     },
     {
-      "name": "Features",
+      "name": "Services",
       "href": "features"
     },
-
     {
-      "name": "Pricing",
-      "href": "pricing"
-    },
-    {
-      "name": "About",
+      "name": "Contact",
       "href": "about"
     }
   ],
@@ -27,58 +22,64 @@
     "href": "#"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "CRYSTAL MEDICARE",
+    "subtitle": "CARING FOR YOU, CRYSTAL CLEAR.",
+   
+    "img": "/assets/images/group.jpg",
     "primaryAction": {
       "text": "Get started",
       "href": "#"
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:crystalmedicare.co.uk@gmail.com?subject=I like react landing page!"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "ABOUT",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
-      },
-      {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "YOUR HEALTH IS OUR PRIORITY",
+        "description": "Welcome to CRYSTAL MEDI CARE,where we believe in providing comprehensive and compassionate healthcare services to meet your needs. With a dedicated team of professionals,and a commitment to your well-being, we’re here to support you on your journey to a healthier life.",
+        "img": "/assets/images/care.jpeg"
       }
+     
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
+    "title": "SERVICES ",
+    "subtitle": "YOUR HEALTH IS OUR",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        "name": "Caregivers",
+        "description": "Our compassionate caregivers provide personalised assistance with daily activities,companionship and emotional support, ensuring seniors feel comfortable and cared for in their own homes or in care facilities.",
+        "number": "1"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
+        "name": "Skilled Nursing",
+        "description": "Our qualified nurses deliver expert medicalcare, medication mangement,and monitoring of health conditions, promoting optimal health and wellbeing for seniors with complex medical needs. ",
+        "number":"4"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
+        "name": "Senior Care",
+        "description": "We offer a range of senior care services tailored to meet the unique needs of each individual,including assistance with personal hygiene,meal preparation,mobility support,and more,fostering independence and dignity. ",
+        "number":"2"
       },
       {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
+        "name": "Kitchen Staff",
+        "description": "Our kitchen assistants help with meal planning, grocery shopping, and meal preparation, ensuring seniors recieve nutritious and delicious meals that meet their dietary preferences and requirements. ",
+        "number":"5"
+      },
+      {
+        "name": "24/7 Home Care Services",
+        "description": "We provide comprehensive home care services around the clock, ensuring continuous support and care for seniors and their families whenever needed.  ",
+        "number":"3"
+      },
+      {
+        "name": "Cleaning Staff",
+        "description": "Our dedicated cleaning staff maintain a clean and hygienic environment in care homes and private residences, ensuring a safe and comfortable living space for seniors and their caregivers.   ",
+        "number":"6"
       }
     ]
   },
@@ -124,29 +125,16 @@
   "about": {
     "sections": [
       {
-        "name": "Something",
+        "name": "Address",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "partment38,hill house commercial gate Mansfield,NG181EJ"
       }
+      
+      
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
+      "Email": "crystalmedicare.co.uk.com",
+      "Contact No": "+447438035802",
       "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
     }
   }
