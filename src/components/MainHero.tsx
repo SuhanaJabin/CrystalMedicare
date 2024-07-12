@@ -8,8 +8,12 @@ const MainHero = () => {
     <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
       <div className="sm:text-center mt-10 lg:text-left group">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-700 sm:text-5xl md:text-6xl">
-          <div className="block xl:inline text-5xl group-hover:text-primary transition-all duration-700">{mainHero.title}</div>{' '}
-          <div className={`block text-primary xl:inline group-hover:text-gray-700 transition-all duration-700`}>
+          <div className="block xl:inline text-5xl group-hover:text-primary transition-all duration-700">
+            {mainHero.title}
+          </div>{' '}
+          <div
+            className={`block text-primary xl:inline group-hover:text-gray-700 transition-all duration-700`}
+          >
             {mainHero.subtitle}
           </div>
         </h1>

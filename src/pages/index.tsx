@@ -1,15 +1,15 @@
 import React from 'react';
 
-import About from '../components/Contact';
+import Product from '../components/About';
 import Analytics from '../components/Analytics';
 import Canvas from '../components/Canvas';
-import Services from '../components/Services';
+import About from '../components/Contact';
 import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
-import Product from '../components/About';
-import Testimony from '../components/Testimony';
+import Services from '../components/Services';
+// import Testimony from '../components/Testimony';
 
 const App = () => {
   return (
@@ -44,9 +44,9 @@ const App = () => {
           <Canvas />
         </>
       </LazyShow> */}
-    
+
       <LazyShow>
-        <> 
+        <>
           <About />
         </>
       </LazyShow>

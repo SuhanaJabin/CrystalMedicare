@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "deploy":"npm run next build && firebase deploy",
+    "build": "npx next build && npx next export",
+    "deploy": "npm run next build && firebase deploy",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
     "export": "next export",
@@ -30,8 +30,10 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.0.0",
+    "@types/jquery": "^3.5.30",
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.33",
+    "@types/slick-carousel": "^1.6.40",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
     "@typescript-eslint/parser": "^4.32.0",
     "autoprefixer": "^10.3.7",

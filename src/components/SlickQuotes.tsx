@@ -1,11 +1,12 @@
-// components/SlickQuotes.js
+// components/SlickQuotes.tsx
 import React, { useEffect } from 'react';
+
 import $ from 'jquery';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel';
 
-const SlickQuotes = () => {
+const SlickQuotes: React.FC = () => {
   useEffect(() => {
     // Initialize the Slick slider
     $('.quotes').slick({
@@ -15,11 +16,11 @@ const SlickQuotes = () => {
       autoplaySpeed: 6000,
       speed: 800,
       slidesToShow: 1,
-      adaptiveHeight: true
+      adaptiveHeight: true,
     });
 
     // Remove the .no-fouc class after the document is ready
-    $(document).ready(function() {
+    $(document).ready(function onDocumentReady() {
       $('.no-fouc').removeClass('no-fouc');
     });
   }, []);

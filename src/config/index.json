@@ -24,7 +24,7 @@
   "mainHero": {
     "title": "CRYSTAL MEDICARE",
     "subtitle": "CARING FOR YOU, CRYSTAL CLEAR.",
-   
+
     "img": "/assets/images/group.jpg",
     "primaryAction": {
       "text": "Get started",
@@ -43,12 +43,10 @@
         "description": "Welcome to CRYSTAL MEDI CARE,where we believe in providing comprehensive and compassionate healthcare services to meet your needs. With a dedicated team of professionals,and a commitment to your well-being, we’re here to support you on your journey to a healthier life.",
         "img": "/assets/images/care.jpeg"
       }
-     
     ]
   },
   "features": {
     "title": "SERVICES ",
-    "subtitle": "YOUR HEALTH IS OUR",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
     "items": [
       {
@@ -59,27 +57,27 @@
       {
         "name": "Skilled Nursing",
         "description": "Our qualified nurses deliver expert medicalcare, medication mangement,and monitoring of health conditions, promoting optimal health and wellbeing for seniors with complex medical needs. ",
-        "number":"4"
+        "number": "4"
       },
       {
         "name": "Senior Care",
         "description": "We offer a range of senior care services tailored to meet the unique needs of each individual,including assistance with personal hygiene,meal preparation,mobility support,and more,fostering independence and dignity. ",
-        "number":"2"
+        "number": "2"
       },
       {
         "name": "Kitchen Staff",
         "description": "Our kitchen assistants help with meal planning, grocery shopping, and meal preparation, ensuring seniors recieve nutritious and delicious meals that meet their dietary preferences and requirements. ",
-        "number":"5"
+        "number": "5"
       },
       {
         "name": "24/7 Home Care Services",
         "description": "We provide comprehensive home care services around the clock, ensuring continuous support and care for seniors and their families whenever needed.  ",
-        "number":"3"
+        "number": "3"
       },
       {
         "name": "Cleaning Staff",
         "description": "Our dedicated cleaning staff maintain a clean and hygienic environment in care homes and private residences, ensuring a safe and comfortable living space for seniors and their caregivers.   ",
-        "number":"6"
+        "number": "6"
       }
     ]
   },
@@ -129,8 +127,6 @@
         "href": "#",
         "content": "partment38,hill house commercial gate Mansfield,NG181EJ"
       }
-      
-      
     ],
     "socialMedia": {
       "Email": "crystalmedicare.co.uk.com",

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background-color: #94d3c5;
 }
 :root {
@@ -11,7 +11,7 @@ body{
   --color-tertiaty: #99a0a3;
 }
 
-a { 
+a {
   @apply text-[#94d3c5];
 }
 
@@ -24,10 +24,9 @@ a:hover {
 }
 .green-filter {
   filter: hue-rotate(30deg);
- 
+
   /* Adjust the degree to get the desired greenish effect */
 }
-
 
 .content p {
   @apply my-6;
@@ -36,5 +35,3 @@ a:hover {
 .content ul {
   @apply my-6;
 }
-
-
