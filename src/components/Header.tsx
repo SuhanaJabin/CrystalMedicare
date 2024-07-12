@@ -26,7 +26,7 @@ const Menu = () => {
 
       <Popover>
         <div className="relative pt-6 px-4 sm:px-6  lg:px-8">
-          <div className="mt-7 mb-48">
+          <div className="mt-7 mb-24">
             <nav
               className=" relative flex items-center justify-between sm:h-10 lg:justify-start"
               aria-label="Global"
@@ -40,7 +40,7 @@ const Menu = () => {
                       className="h-16 w-auto  sm:w-44 sm:h-44 mb-5 pt-5 "
                       src={${image}}
                     /> */}
-                   <Image src="/static/images/image.png" alt="the logo" width={64} height={64} />
+                   <Image src="/static/images/image.png" alt="the logo" width={100} height={100} />
                   </a>
                   <div className="mr-2 flex items-center md:hidden">
                     <Popover.Button
