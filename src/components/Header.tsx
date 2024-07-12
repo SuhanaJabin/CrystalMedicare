@@ -3,6 +3,7 @@ import React, { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Link } from 'react-scroll';
+import image from '/image.png' 
 
 import config from '../config/index.json';
 
@@ -36,7 +37,7 @@ const Menu = () => {
                     <img
                       alt="logo"
                       className="h-16 w-auto  sm:w-44 sm:h-44 mb-5 pt-5 "
-                      src={logo}
+                      src={image}
                     />
                   </a>
                   <div className="mr-2 flex items-center md:hidden">

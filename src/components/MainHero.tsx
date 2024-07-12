@@ -12,7 +12,7 @@ const MainHero = () => {
             {mainHero.title}
           </div>{' '}
           <div
-            className={`block text-primary xl:inline group-hover:text-blue-700 lg:text-5xl  sm:text-3xl sm:text-center transition-all duration-700`}
+            className={`block text-primary  group-hover:text-red-700 lg:text-5xl  sm:text-3xl sm:text-center transition-all duration-700`}
           >
             {mainHero.subtitle}
           </div>
@@ -20,7 +20,7 @@ const MainHero = () => {
         {/* <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
           {mainHero.description}
         </p> */}
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center ml-5 lg:justify-start">
           <div className="rounded-md shadow">
             <a
               href={mainHero.primaryAction.href}
