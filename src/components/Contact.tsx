@@ -14,20 +14,20 @@ const Contact = () => {
             </p>
 
             <div className="flex flex-wrap mt-5">
-              <p className="sm:text-xl lg:text-2xl text-gray-600">
+              <p className="sm:text-xl lg:text-2xl text-gray-600 text-justify">
                 Address:
               </p>
-              <div className="flex flex-col ml-5 sm:text-xl lg:text-2xl text-gray-600">
+              <div className="flex flex-col ml-5 sm:text-xl lg:text-2xl text-gray-600 text-justify">
                 <p>Apartment 38</p>
                 <p>Hill House Commercial Gate,</p>
                 <p>Mansfield,</p>
                 <p>NG18 1EJ</p>
               </div>
             </div>
-            <h1 className="mt-2 sm:text-xl lg:text-2xl text-gray-600">
+            <h1 className="mt-2 sm:text-xl lg:text-2xl text-gray-600 text-justify">
               Contact No: +447438035802
             </h1>
-            <h1 className="mt-2 sm:text-xl lg:text-2xl text-gray-600">
+            <h1 className="mt-2 sm:text-xl lg:text-2xl text-gray-600 text-justify">
               Email Us:{' '}
               <a className="text-gray-600 transition-all duration-300" href="mailto:crystalmedicare.co.uk@gmail.com">
                 crystalmedicare.co.uk@gmail.com
