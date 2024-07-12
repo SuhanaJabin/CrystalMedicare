@@ -10,7 +10,7 @@ const Features = () => {
     <div className={`py-12 bg-background`} id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1
-          className={`w-full text-5xl mb-32 font-bold leading-tight text-center  text-primary hover:text-secondary`}
+          className={`w-full lg:text-5xl md:text-5xl sm:text-4xl mb-32 font-bold leading-tight text-center  text-primary hover:text-secondary`}
         >
           {features.title.split(' ').map((word, index) => (
             <span
@@ -44,7 +44,7 @@ const Features = () => {
                     {feature.name}
                   </h1>
                 </dt>
-                <dd className="mt-2 ml-16 text-xl text-gray-500 transition-all duration-500  group-hover:text-2xl group-hover:text-gray-800 group-hover:font-bold">
+                <dd className="mt-2 ml-16 sm:text-xl text-gray-500 transition-all duration-500  group-hover:text-2xl group-hover:text-gray-800 group-hover:font-bold">
                   {feature.description}
                 </dd>
               </div>

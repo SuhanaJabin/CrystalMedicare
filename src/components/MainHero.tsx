@@ -6,13 +6,13 @@ const MainHero = () => {
   const { mainHero } = config;
   return (
     <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-      <div className="sm:text-center mt-10 lg:text-left group">
-        <h1 className="text-4xl tracking-tight font-extrabold text-gray-700 sm:text-5xl md:text-6xl">
-          <div className="block xl:inline text-5xl group-hover:text-primary transition-all duration-700">
+      <div className="sm:text-center lg:mt-48 lg:text-left group ">
+        <h1 className=" tracking-tight font-extrabold text-gray-700  ">
+          <div className="block xl:inline lg:text-5xl  sm:text-4xl group-hover:text-primary sm:text-center transition-all duration-700">
             {mainHero.title}
           </div>{' '}
           <div
-            className={`block text-primary xl:inline group-hover:text-gray-700 transition-all duration-700`}
+            className={`block text-primary xl:inline group-hover:text-gray-700 lg:text-5xl md:text-4xl sm:text-4xl sm:text-center transition-all duration-700`}
           >
             {mainHero.subtitle}
           </div>
@@ -24,15 +24,15 @@ const MainHero = () => {
           <div className="rounded-md shadow">
             <a
               href={mainHero.primaryAction.href}
-              className={`w-full flex items-center mt-48 justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
+              className={`w-full flex items-center lg:mt-32 sm:mt-10 justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
             >
               {mainHero.primaryAction.text}
             </a>
           </div>
-          <div className="mt-3 sm:mt-0 sm:ml-3">
+          <div className="  sm:ml-3">
             <a
               href={mainHero.secondaryAction.href}
-              className={`w-full flex items-center mt-48 justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
+              className={`w-full flex items-center lg:mt-32 sm:mt-10 justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
             >
               {mainHero.secondaryAction.text}
             </a>
