@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       id="about"
-      className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12"
+      className="mx-auto container xl:px-20 lg:px-12 p-6 py-12"
     >
      
       <div className="flex items-center justify-center">
