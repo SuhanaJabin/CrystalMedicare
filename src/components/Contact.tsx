@@ -11,29 +11,29 @@ const Contact = () => {
         <div className="flex w-full p-1 lg:w-5/6 flex-wrap items-center mb-10 justify-center">
           <div>
             <h1
-              className="lg:text-5xl text-center sm:text-3xl font-bold mb-10"
+              className="lg:text-4xl text-secondary text-center sm:text-3xl font-bold mb-10"
             >
               Contact Us
             </h1>
-            <p className=" sm:text-xl  lg:text-2xl font-bold ">
+            <p className="transition-all duration-500 hover:text-gray-600 sm:text-xl  lg:text-2xl font-bold ">
               We&apos;re here to assist you with all your healthcare needs. Reach out to us through any of the follow
             </p>
 
             <div className="flex flex-wrap mt-5">
-              <p className="sm:text-xl md:text-2xl font-bold text-gray-600">
+              <p className="sm:text-xl lg:text-2xl font-bold text-gray-600">
                 Address:
               </p>
-              <div className="flex flex-col ml-5 sm:text-xl md:text-2xl font-bold text-gray-600">
+              <div className="flex flex-col ml-5 sm:text-xl lg:text-2xl font-bold text-gray-600">
                 <p>Apartment 38</p>
                 <p>Hill House Commercial Gate,</p>
                 <p>Mansfield,</p>
                 <p>NG18 1EJ</p>
               </div>
             </div>
-            <h1 className="mt-2 sm:text-xl md:text-2xl font-bold text-gray-600">
+            <h1 className="mt-2 sm:text-xl lg:text-2xl font-bold text-gray-600">
               Contact No: +447438035802
             </h1>
-            <h1 className="mt-2 sm:text-xl md:text-2xl font-bold text-gray-600">
+            <h1 className="mt-2 sm:text-xl lg:text-2xl font-bold text-gray-600">
               Email Us:{' '}
               <a
                 className="font-bold text-gray-600 transition-all duration-300"
@@ -42,7 +42,7 @@ const Contact = () => {
                 crystalmedicare.co.uk@gmail.com
               </a>
             </h1>
-            <p className=" mt-5  sm:text-xl  lg:text-2xl font-bold text-gray-600">
+            <p className="transition-all duration-500 hover:text-primary mt-5  sm:text-xl  lg:text-2xl font-bold text-gray-600">
               For appointments or enquiries, feel free to call, email or visit our website. Our dedicated team is ready to help you achieve optimal health and wellbeing.
             </p>
           </div>
