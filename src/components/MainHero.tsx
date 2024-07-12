@@ -20,11 +20,11 @@ const MainHero = () => {
         {/* <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
           {mainHero.description}
         </p> */}
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center text-center justify-center ml-5 lg:justify-start">
+        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center  ml-20 lg:justify-start">
           <div className="rounded-md shadow">
             <a
               href={mainHero.primaryAction.href}
-              className={`w-full flex items-center text-center lg:mt-10 sm:mt-10 justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
+              className={`w-full flex items-center  lg:mt-10 sm:mt-10 justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
             >
               {mainHero.primaryAction.text}
             </a>

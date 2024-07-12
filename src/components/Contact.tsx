@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="flex w-full p-1 lg:w-5/6 flex-wrap items-center mb-10 justify-center">
           <div>
             <h1
-              className="lg:text-4xl text-gray-900 text-center sm:text-2xl font-bold mb-10"
+              className="lg:text-5xl text-gray-900 text-center sm:text-2xl font-bold mb-10"
             >
               CONTACT 
             </h1>
