@@ -40,7 +40,7 @@ const Menu = () => {
                       className="h-16 w-auto  sm:w-44 sm:h-44 mb-5 pt-5 "
                       src={${image}}
                     /> */}
-                   <Image src="/static/images/image.png" alt="the logo" width={100} height={100} />
+                   <Image src="/static/images/image.png" alt="the logo" width={90} height={90} />
                   </a>
                   <div className="mr-2 flex items-center md:hidden">
                     <Popover.Button
