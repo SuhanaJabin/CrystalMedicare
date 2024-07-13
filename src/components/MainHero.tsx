@@ -10,7 +10,7 @@ const MainHero = () => {
           <div className="text-3xl lg:text-5xl group-hover:text-primary text-center font-extrabold transition-all duration-700">
             {mainHero.title}
           </div>
-          <div className="text-3xl lg:text-5xl text-primary group-hover:text-gray-700 text-center font-extrabold transition-all duration-700">
+          <div className="text-3xl lg:text-5xl text-primary group-hover:text-gray-700 text-center font-extrabold transition-all duration-700 mb-2">
             {mainHero.subtitle}
           </div>
         </h1>
@@ -18,7 +18,7 @@ const MainHero = () => {
           <div className="rounded-md shadow w-3/5 mx-auto sm:w-auto mb-3">
             <a
               href={mainHero.primaryAction.href}
-              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10"
+              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10 lg:mr-3"
             >
               {mainHero.primaryAction.text}
             </a>
@@ -26,7 +26,7 @@ const MainHero = () => {
           <div className="w-3/5 mx-auto sm:w-auto">
             <a
               href={mainHero.secondaryAction.href}
-              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10"
+              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-primary  lg:mr-3 md:py-4 md:text-lg md:px-10"
             >
               {mainHero.secondaryAction.text}
             </a>
