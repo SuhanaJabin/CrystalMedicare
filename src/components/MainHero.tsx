@@ -5,7 +5,7 @@ const MainHero = () => {
   const { mainHero } = config;
   return (
     <main className="mx-auto max-w-7xl px-4 sm:mt-8 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-      <div className="lg:mt-10 sm:mt-2 lg:text-left sm:text-center group pl-2 pr-2">
+      <div className="lg:mt-10 sm:mt-2 lg:text-left sm:text-center group pl-4 pr-2">
         <h1 className="tracking-tight text-gray-700">
           <div className="text-3xl lg:ml-2 lg:text-5xl group-hover:text-primary text-center font-extrabold transition-all duration-700">
             {mainHero.title}
