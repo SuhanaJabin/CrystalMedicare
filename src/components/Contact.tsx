@@ -13,7 +13,7 @@ const Contact = () => {
               We&apos;re here to assist you with all your healthcare needs. Reach out to us through any of the follow
             </p>
 
-            <div className="flex flex-wrap mt-5">
+            <div className="flex flex-row mt-5">
               <p className="pl-1 text-xl lg:text-2xl text-tertiary text-justify">
                 Address:
               </p>
