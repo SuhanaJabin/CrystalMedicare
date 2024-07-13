@@ -20,7 +20,7 @@ const Product = () => {
         </h1>
 
         <div className="flex flex-wrap justify-center">
-          <div className="w-11/12 sm:w-1/2 p-6 mb-14 group transition-all duration-300 text-center">
+          <div className="w-11/12 sm:w-1/2 p-6 mb-14 mt-7 group transition-all duration-300 text-center">
             <h3 className="lg:text-3xl text-2xl text-gray-800 font-medium group-hover:text-primary leading-none lg:leading-normal transition-all duration-500">
               {firstItem?.title}
             </h3>
