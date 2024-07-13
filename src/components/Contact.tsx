@@ -9,31 +9,31 @@ const Contact = () => {
             <h1 className="lg:text-5xl text-3xl text-gray-900 text-center sm:text-2xl font-bold mb-10">
               CONTACT 
             </h1>
-            <p className="transition-all duration-500 hover:text-primary sm:text-xl lg:text-2xl text-gray-600 p-3 text-justify">
+            <p className="transition-all duration-500 hover:text-primary font-bold sm:text-xl lg:text-2xl text-gray-600 p-3 text-justify">
               We&apos;re here to assist you with all your healthcare needs. Reach out to us through any of the follow
             </p>
 
             <div className="flex flex-wrap mt-5">
-              <p className="sm:text-xl pl-1 lg:text-2xl text-gray-600 text-justify">
+              <p className="sm:text-xl pl-1 lg:text-2xl font-bold text-gray-600 text-justify">
                 Address:
               </p>
-              <div className="flex flex-col pl-1 ml-5 sm:text-xl lg:text-2xl text-gray-600 text-justify">
+              <div className="flex flex-col pl-1 ml-5 font-bold sm:text-xl lg:text-2xl text-gray-600 text-justify">
                 <p>Apartment 38</p>
                 <p>Hill House Commercial Gate,</p>
                 <p>Mansfield,</p>
                 <p>NG18 1EJ</p>
               </div>
             </div>
-            <h1 className="mt-2 pl-1 sm:text-xl lg:text-2xl text-gray-600 text-justify">
+            <h1 className="mt-2 pl-1 sm:text-xl font-bold lg:text-2xl text-gray-600 text-justify">
               Contact No: +447438035802
             </h1>
-            <h1 className="mt-2 pl-1 sm:text-xl lg:text-2xl text-gray-600 text-justify">
+            <h1 className="mt-2 pl-1 sm:text-xl lg:text-2xl font-bold text-gray-600 text-justify">
               Email:{' '}
-              <a className="text-gray-600 transition-all duration-300" href="mailto:crystalmedicare.co.uk@gmail.com">
+              <a className="text-gray-600 transition-all font-bold duration-300" href="mailto:crystalmedicare.co.uk@gmail.com">
                 crystalmedicare.co.uk@gmail.com
               </a>
             </h1>
-            <p className="transition-all duration-500 pl-1 hover:text-primary mt-5 sm:text-xl lg:text-2xl text-gray-600 p-3 text-justify">
+            <p className="transition-all duration-500 pl-1 hover:text-primary mt-5 sm:text-xl lg:text-2xl text-gray-600 p-3 font-bold text-justify">
               For appointments or enquiries, feel free to call, email or visit our website. Our dedicated team is ready to help you achieve optimal health and wellbeing.
             </p>
           </div>
