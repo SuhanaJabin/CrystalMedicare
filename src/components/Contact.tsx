@@ -25,8 +25,11 @@ const Contact = () => {
               </div>
             </div>
             <h1 className="mt-2 pl-1 text-xl font-semibold lg:text-2xl text-gray-500 text-justify">
-              Contact No: +447438035802
+              Contact No:  <a className="text-gray-500 font-semibold transition-all duration-300" href="+447438035802">
+            +447438035802
+              </a>
             </h1>
+           
             <h1 className="mt-2 pl-1 text-xl font-semibold lg:text-2xl text-gray-500 text-justify">
               Email:{' '}
               <a className="text-gray-500 font-semibold transition-all duration-300" href="mailto:crystalmedicare.co.uk@gmail.com">
