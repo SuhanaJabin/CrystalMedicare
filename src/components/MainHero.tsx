@@ -14,7 +14,7 @@ const MainHero = () => {
             {mainHero.subtitle}
           </div>
         </h1>
-        <div className="mt-4 sm:mt-8 sm:flex sm:flex-col sm:items-center lg:ml-10 lg:mb-16 sm:mb-3 mr-5">
+        <div className="mt-4 sm:mt-8 sm:flex sm:flex-col sm:items-center lg:ml-10 lg:mb-16 sm:mb-3 mr-7">
           <div className="rounded-md shadow w-3/5 mx-auto sm:w-auto mb-3">
             <a
               href={mainHero.primaryAction.href}
