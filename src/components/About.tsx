@@ -8,7 +8,7 @@ const Product = () => {
   return (
     <section className="bg-background py-8" id="product">
       <div className="container max-w-5xl mx-auto m-8 p-3">
-        <h1 className="w-full my-2 lg:text-5xl text-2xl font-extrabold leading-tight text-center text-primary">
+        <h1 className="w-full my-2 lg:text-5xl sm:text-2xl font-extrabold leading-tight text-center text-primary">
           {product.title.split(' ').map((word, index) => (
             <span
               key={index}

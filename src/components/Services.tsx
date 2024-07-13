@@ -9,7 +9,7 @@ const Features = () => {
   return (
     <div className="py-12 bg-background" id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="w-full lg:text-5xl text-3xl lg:mb-32 sm:20 font-bold leading-tight text-center text-primary hover:text-secondary">
+        <h1 className="w-full lg:text-5xl text-3xl lg:mb-32 sm:mb-10 font-bold leading-tight text-center text-primary hover:text-secondary">
           {features.title.split(' ').map((word, index) => (
             <span
               key={index}
