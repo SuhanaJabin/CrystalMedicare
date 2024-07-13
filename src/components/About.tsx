@@ -24,7 +24,7 @@ const Product = () => {
             <h3 className="lg:text-3xl text-2xl text-gray-800 font-medium group-hover:text-primary leading-none lg:leading-normal transition-all duration-500">
               {firstItem?.title}
             </h3>
-            <p className="text-tertiary text-xl lg:text-2xl font-semibold group-hover:text-gray-800 group-hover:font-bold transition-all duration-500 mt-12 text-justify">
+            <p className="text-gray-500 text-xl lg:text-2xl font-semibold group-hover:text-gray-800 group-hover:font-bold transition-all duration-500 mt-12 text-justify">
               {firstItem?.description}
             </p>
           </div>
