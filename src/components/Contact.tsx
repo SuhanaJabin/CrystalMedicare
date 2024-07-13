@@ -39,7 +39,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <h1 className="mt-5 text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-center text-gray-700">
+      <h1 className="mt-5 text-lg sm:text-xl md:text-2xl lg:text-2xl font-bold text-center text-gray-700">
         For more details:{' '}
         <a className="text-gray-700 transition-all duration-300" href="https://www.crystalmedicare.co.uk">
           www.crystalmedicare.co.uk
