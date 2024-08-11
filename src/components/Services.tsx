@@ -37,7 +37,7 @@ const Features = () => {
                     {feature.name}
                   </h1>
                 </dt>
-                <dd className="mt-2 ml-16 text-xl text-gray-500 transition-all duration-500 lg:group-hover:text-2xl group-hover:text-gray-800 sm:pr-3 group-hover:font-bold text-justify">
+                <dd className="mt-2 ml-16 text-xl text-gray-500 transition-all duration-500 lg:group-hover:text-2xl group-hover:text-gray-800 sm:pr-3 group-hover:font-bold ">
                   {feature.description}
                 </dd>
               </div>
